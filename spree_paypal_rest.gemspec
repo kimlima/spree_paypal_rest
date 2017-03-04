@@ -16,11 +16,11 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 4.2.7"
+  s.add_dependency "rails", "~> 4.2.6"
   s.add_dependency "paypal-sdk-rest", "~> 1.6.0"
 
-  s.add_development_dependency "spree", "3.1.3"
-  s.add_runtime_dependency "spree_core", '~> 3.1.3'
+  s.add_development_dependency "spree", "3.1.0"
+  s.add_runtime_dependency "spree_core", '~> 3.1.0'
   s.add_development_dependency "spree_auth_devise", "3.1.0"
 
   s.add_development_dependency "sqlite3"
